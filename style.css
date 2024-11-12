@@ -366,3 +366,196 @@
     }
   }
   
+
+  /* content1 */
+  .VentusFashion {
+    text-align: center;
+    background: url("assets1/1.png") no-repeat center center; 
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+    width: 1272px;
+    height: 559px;
+  }
+  .magazine {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    margin-bottom: 25px;
+    margin-top: 240px;
+    text-align: left;
+    margin-left: 53px;
+  }
+  .Fashion {
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 19px;
+    text-align: left;
+    color: rgba(255, 255, 255);
+    margin-left: 53px;
+  }
+  
+  .highlight {
+    background: linear-gradient(to right, #4ce0d7, #8ba9f4);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .about {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.8;
+    color: rgba(255, 255, 255);
+    width: 500px;
+    text-align: left;
+    margin-left: 53px;
+  }
+  .topics-container {
+    display: flex;
+    flex-direction: column;
+    margin: 73px 0 88px 0;
+  }
+  .Topics {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 85px;
+    color: #333333;
+  }
+  
+  .topics-grid {
+    width: 1272px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .topic-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 15px;
+    width: 204px;
+    height: 291px;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  .topic-item:hover {
+    transform: scale(1.05);
+  }
+  .topic-icon {
+    margin-bottom: 22px;
+    opacity: 0.8;
+  }
+  .topic-title {
+    position: absolute;
+    top: 159px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #262626;
+    margin-bottom: 29px;
+  }
+  .view-more {
+    position: absolute;
+    top: 224px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #262626;
+    background-color: #00c4cc;
+    border: none;
+    border-radius: 20px;
+    width: 144px;
+    height: 36px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-more:hover {
+    background-color: #00a3a3;
+  }
+  body > div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .topics-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .topics-grid .topic-item:nth-child(1) img {
+    position: absolute;
+    top: 51px;
+    width: 88px;
+    height: 88px;
+  }
+  .topics-grid .topic-item:nth-child(2) img {
+    position: absolute;
+    top: 51px;
+    width: 69px;
+    height: 86px;
+  }
+  .topics-grid .topic-item:nth-child(3) img {
+    position: absolute;
+    top: 41px;
+    width: 88px;
+    height: 100px;
+  }
+  .topics-grid .topic-item:nth-child(4) img {
+    position: absolute;
+    top: 43px;
+    width: 38px;
+    height: 89px;
+  }
+  .topics-grid .topic-item:nth-child(5) img {
+    position: absolute;
+    top: 46px;
+    width: 64px;
+    height: 86px;
+  }
+  .topics-grid .topic-item:nth-child(6) img {
+    position: absolute;
+    top: 33px;
+    width: 55px;
+    height: 102px;
+  }
+  
+  hr {
+    margin-bottom: 53px;
+    width: 1267px;
+    color: #bcbcbc;
+  }
+  
+  @media (max-width: 1024px) {
+    .VentusFashion {
+      width: 95%;
+      height: 100%;
+    }
+    .Fashion {
+      font-size: 4.5vw;
+      margin-left: 10px;
+      margin-bottom: 0;
+    }
+    .magazine {
+      font-size: 2vw;
+      margin-left: 10px;
+      margin-bottom: 0;
+    }
+    .about {
+      font-size: 2vw;
+      margin-bottom: 15px;
+      width: auto;
+      margin-left: 10px;
+    }
+  
+    .topics-grid {
+      width: 95%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .topic-item {
+      margin-bottom: 10px;
+    }
+  }
+  
